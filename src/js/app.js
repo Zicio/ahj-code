@@ -4,8 +4,6 @@
 const unusedVariable = 'variable';
 
 // for demonstration purpose only
-export default function demo(value) {
-  return value;
+export default function factorial(n) {
+  return (n !== 1) ? n * factorial(n - 1) : 1;
 }
-
-console.log('app.js included');
