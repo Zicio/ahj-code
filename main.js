@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("Факториал ".concat(5," = ",function c(n){return 1!==n?n*c(n-1):1}(5)))})();
